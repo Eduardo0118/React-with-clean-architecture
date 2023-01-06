@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "description": "Curso de React usando o Clean Architecture",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.5.0"
+  }
 }
