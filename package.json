@@ -19,5 +19,13 @@
   },
     "scripts": {
         "prepare": "husky install"
+    },
+    "husky": {
+        "pre-commit": "lint-staged"
+    },
+    "lint-staged": {
+        "*.{ts,tsx}": [
+            "eslint 'src/**' --fix"
+        ]
     }
 }
